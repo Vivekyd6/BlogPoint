@@ -13,10 +13,10 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-      <Route exact path="/" element={<Home />} />
-      <Route path="/blog" element={<Blog />} />
-      <Route path="/blog/:slug" element={<SinglePost />} />
-      <Route path="*" element={<Error />} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/blog/:slug" element={<SinglePost />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
   );
