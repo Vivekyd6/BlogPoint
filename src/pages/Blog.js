@@ -29,8 +29,8 @@ export default function Blog() {
 
   return (
     <>
-      <section className="px-5 2xl:max-w-7xl 2xl:mx-auto">
-        <h1 className="font-bold test-4xl mt-5 mb-10 tracking-widest text-center md:text-6xl lg:text-8xl">Blog Page</h1>
+      <section className="px-5 2xl:max-w-7xl 2xl:mx-auto lg:mx-auto">
+        <h1 className="font-bold test-4xl mt-5 mb-10 tracking-widest text-center md:text-6xl lg:text-8xl">Recent Blog's</h1>
 
 
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
