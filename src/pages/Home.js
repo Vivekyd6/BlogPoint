@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom';
 const Home = () => {
   return (
     <div>
@@ -8,7 +8,9 @@ const Home = () => {
         Vivek Yadav Blog
       </h1>
       <button className="py-2 px-6 rounded shadow text-white bg-black hover:bg-transparent border-2 border-black transition-all duration-5-- hover:text-black font-bold">
+      <Link to="/blog">
         Read my Blog
+        </Link>
       </button>
     </section>
     </div>
