@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 const Home = () => {
   return (
     <div>
-    <section className="flex flex-col items-center justify-center text-center h-screen">
+    <section className="flex flex-col items-center justify-center text-center h-screen lg:">
       <h1 className="uppercase font-bold text-4xl tracking-wode mb-5 md:text-6xl lg:text-7xl">
         Vivek Yadav Blog
       </h1>

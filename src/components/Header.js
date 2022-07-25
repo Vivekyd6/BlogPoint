@@ -9,7 +9,7 @@ const Header = () => {
       <header className="flex items-center justify-between bg-black text-white p-4">
         <div className="logo">
           <Link to="/">
-         <h2 className="font-bold text-xl md:text-2xl lg:text-3xl"> Vivek Blog
+         <h2 className="font-bold text-xl md:text-2xl lg:text-3xl"> BlogPoint
           </h2>
           </Link>
         </div>
@@ -17,7 +17,7 @@ const Header = () => {
         <nav>
           <ul className="flex">
             <li className="mr-5 lg:text-lg"><button> <Link to="/">Home</Link></button></li>
-            <li className="lg:text-lg"> <button> <Link to="/blog">Blog</Link> </button> </li>
+            <li className="lg:text-lg"> <button> <Link to="/article">Blog</Link> </button> </li>
           </ul>
         </nav>
       </header>
