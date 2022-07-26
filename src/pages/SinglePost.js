@@ -20,8 +20,8 @@ export default function SinglePost() {
         title,
         time,
         body,
-        // "name": author -> name,
-        // "authorImage": author -> image
+        //  "name": author -> name,
+        //  "authorImage": author -> image
         mainImage {
           asset -> {
             _id,
@@ -48,24 +48,27 @@ export default function SinglePost() {
             {singlePost.title}
           </h1>
           {singlePost.mainImage && singlePost.mainImage.asset && (
-            <img
+            <img 
               src={singlePost.mainImage.asset.url}
               alt={singlePost.title}
               title={singlePost.title}
               className="blog__image rounded-t"
             />
           )}
+
           {/* <p>By {singlePost.name.author.name}</p> */}
 
-          <div className="block__content">
+          <div className="block__content mt-10">
             <BlockContent
               blocks={singlePost.body}
               projectId={ProductId}
               dataset="production"
             />
+
+            {/* <p>{SinglePost.name.author.name}</p> */}
           </div>
 
-          <button className="mt-3">
+          <button className="mt-7">
             <Link
               to="/blog"
               className="py-2 px-6 mt-3 rounded shadow text-white bg-black hover:bg-transparent border-2 border-black transition-all duration-500 hover:text-black font-bold"

@@ -37,7 +37,7 @@ export default function Blog() {
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
           {posts.map((post) => (
             <article className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700" key={post.slug.current}>
-              <img className="rounded-t-lg" src={post.mainImage.asset.url} alt="{post.title" />
+              <img className="rounded-t-lg mt-3" src={post.mainImage.asset.url} alt="{post.title" />
               <div className="p-5">
                 <div className="px-4 py-2 flex flex-row items-center">
                   <span

@@ -14,9 +14,9 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/blog/:slug" element={<SinglePost />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="*" element={<Error />} />
+        <Route exact path="/blog/:slug" element={<SinglePost />} />
+        <Route exact path="/blog" element={<Blog />} />
+        <Route exact path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
   );
