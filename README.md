@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+BlogPoint is a website where user can put their blog related to different categories . 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is in Development phase , so currently only admin have access to write , edit , update blogs etc . 
+The viewers can only see and read the blogs which are available on websites . 
 
-## Available Scripts
+Future Plans :- 
+1. Making multiuser blogging websites with authentication 
+2. User can view , update, read, write their blogs.
+3. Upvotes/ Likes feature on single post . 
+4. Comment sections where users can interact to each other . 
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+About Website:- 
+1. Frontend of websites has been developed by HTML , TAILWIND CSS , REACTJS .
+2. Backend is powered by SANITY.IO but as i am learning phase of backend , soon will update the backend by MongoDB, ExpressJs and NodeJs.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Some Glimpes of The BLOGHUNT Websites:- 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+![image](https://user-images.githubusercontent.com/86094260/180923570-7603bae3-8ece-416f-bdb9-a7ea4edbb162.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Responsive for most of the available devices in the World currently.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://user-images.githubusercontent.com/86094260/180924350-caab63ec-a4b0-4e1e-9dd0-e4040a22397d.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+![image](https://user-images.githubusercontent.com/86094260/180924592-5ce8d09d-190d-4b48-ad69-57788ec75ed4.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+INDIVIDUAL BLOG POST :- 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://user-images.githubusercontent.com/86094260/180924663-b2069d88-5943-4e3a-b07e-ab752074b114.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
