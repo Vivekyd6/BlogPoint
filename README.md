@@ -1,5 +1,9 @@
 BlogPoint is a website where user can put their blog related to different categories . 
 
+BlogPoint is hosted on Netlify Server and Live on below link :-
+https://blogpoint.tk/
+
+
 It is in Development phase , so currently only admin have access to write , edit , update blogs etc . 
 The viewers can only see and read the blogs which are available on websites . 
 
